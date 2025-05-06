@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    font-size: 32px;
+}
+
+#container{
+    min-width: 500px;
+}
+
+p{
+    color: #0056b2;
+    margin-top: 2px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.classicSubmit{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+span{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}

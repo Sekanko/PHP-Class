@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    font-size: 32px;
+}
+#container{
+    width: 800px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: #0055b2;
+    overflow: auto;
+    white-space: nowrap;
+}
+input, .classicSubmit{
+    margin: 10px;
+    height: 40px;
+    flex: 1;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.deleteButton{
+    color: white;
+    background-color: #f64444;
+}
+
+#inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

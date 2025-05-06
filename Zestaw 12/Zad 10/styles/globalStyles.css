@@ -1,0 +1,37 @@
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas,sans-serif;
+
+}
+
+#container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.73);
+
+}
+
+input, select{
+    border-radius: 10px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.73);
+}
+input{
+    border: 1px solid lightgray;
+    box-shadow: 0 0 0 rgba(0,0,0,0.73);
+}
+.classicSubmit{
+    margin-top: 10px;
+    background-color: #0055b2;
+    color: white;
+    border: 1px solid #0161ca;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+input[type='submit']:hover{
+    filter: brightness(85%);
+}

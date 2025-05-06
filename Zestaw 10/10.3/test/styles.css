@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5c715e;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ddeedf;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    min-height: 70%;
+    width: 70%;
+    margin-top: 10px;
+    background-color: #f2f9f1;
+    padding: 40px;
+    border: 2px solid #5c715e;
+}
+
+select:has(option[value="car"]:not(:checked))~#car {
+    display: none;
+}
+
+select:has(option[value="new_car"]:not(:checked))~#new_car {
+    display: none;
+}
+
+select:has(option[value="insurance_car"]:not(:checked))~#insurance_car {
+    display: none;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select {
+    height: 25px;
+}
+
+label,
+h1,
+p {
+    margin-top: 10px;
+}
+
+button {
+    height: 25px;
+    width: 100px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #5c715e;
+    color: #f2f9f1;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    align-self: flex-start;
+}
+
+#cars_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cars_table th, #cars_table td {
+    border: 1px solid #5c715e;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+#cars_table th {
+    background-color: #f2f9f1;
+}
+
+#cars_table tr:nth-child(even) {
+    background-color: #ddeedf;
+}

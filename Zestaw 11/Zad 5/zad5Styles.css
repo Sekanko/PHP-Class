@@ -1,0 +1,101 @@
+h1{
+    margin-bottom: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3D82AB;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#findLabelContainer p{
+    color: #47cf97;
+}
+
+#headerForm{
+    justify-content: center;
+    border-left: 1px dotted black;
+    margin-left: 10px;
+}
+
+#headerForm > input{
+    margin: 10px;
+    height: 30px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #a25738;
+    font-size: 25px;
+}
+
+fieldset span{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+legend{
+    color: #944e1e;
+}
+#addForm input{
+    height: 40px;
+}
+
+#addForm{
+    margin: 15px;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(91, 152, 83, 0.73);
+    border-radius: 8px;
+    background-color: #91D4C2;
+}
+
+#addForm input{
+    margin: 10px;
+}
+
+input:not([type='submit']){
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.editButton{
+    background-color: #8085a5;
+    color: white;
+    border: 1px solid #747895;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.deleteButton{
+    background-color: #e6605f;
+    color: white;
+    border: 1px solid #e8706f;
+    height: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:active{
+    color: black;
+}

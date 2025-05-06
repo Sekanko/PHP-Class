@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    font-size: 32px;
+}
+
+#info{
+    color: #605f5f;
+    width: 500px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+}
+b{
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.classicSubmit{
+    font-size: 25px;
+    letter-spacing: 2px;
+}

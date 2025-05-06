@@ -1,0 +1,120 @@
+#container{
+    display: block;
+    min-width: 1000px;
+    max-width: 95%;
+    margin-top: 25px;
+}
+
+.divConfig > *{
+    display: block;
+
+}
+.title{
+    color: #0056b2;
+}
+p.title{
+    margin-top: 2px;
+    padding: 3px;
+    margin-bottom: 1px;
+}
+h2.title{
+    margin-bottom: 0;
+}
+
+#newCarContainer,
+#insuranceCarContainer,
+#addCarTitle,
+#addNewCarTitle,
+#addInsuranceCarTitle{
+    display: none;
+}
+
+select:has(option[value='Car']:checked) ~ #addCarTitle{
+    display: block;
+}
+
+select:has(option[value='NewCar']:checked) ~ #newCarContainer,
+select:has(option[value='NewCar']:checked) ~ #addNewCarTitle{
+    display: block;
+}
+select:has(option[value='InsuranceCar']:checked) ~ #newCarContainer,
+select:has(option[value='InsuranceCar']:checked) ~ #insuranceCarContainer,
+select:has(option[value='InsuranceCar']:checked) ~ #addInsuranceCarTitle{
+    display: block;
+}
+
+#searchDiv{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+#searchDiv > *{
+    flex: 2;
+}
+#searchButton{
+    Margin: 10px;
+    flex: 1;
+}
+#searchDiv p{
+    margin-top: 0;
+}
+
+/*Car list*/
+.deleteButton{
+    color: white;
+    background-color: #f64444;
+}
+.editButton{
+    color: white;
+    background-color: #0cb3f3;
+}
+.detailButton{
+    color: white;
+    background-color: #00a39e;
+}
+.getPriceButton{
+    color: orangered;
+}
+
+fieldset{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.detail{
+    font-weight: bold;
+}
+
+legend{
+    display: flex;
+}
+
+legend > *{
+    margin: 3px;
+}
+
+#carDisplay{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+fieldset{
+    color: #605f5f;
+    max-width: 350px;
+}
+
+fieldset b{
+    color: black;
+}
+
+.carModelView{
+    margin: 0;
+    padding: 0;
+    max-height: 50px;
+    max-width: 350px;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.error{
+    color: #b60404;
+}

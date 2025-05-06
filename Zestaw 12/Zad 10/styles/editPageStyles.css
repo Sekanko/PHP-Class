@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    font-size: 32px;
+}
+#container{
+    max-width: 800px;
+}
+#info{
+    color: #605f5f;;
+}
+b{
+    color: black;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+    overflow: auto;
+    white-space: nowrap;
+}
+h3 div{
+
+}
+#infoCar{
+    color: #095fc1;
+}
+#infoSpan{
+    font-size: 14px;
+    color: #b60404;
+}
+
+form > *{
+    display: block;
+}
+.classicSubmit{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#inputs{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type='text'], input[type='number']{
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type='checkbox']{
+    height: 20px;
+    width: 20px;
+}
+
+input[type='submit']{
+    flex: 1;
+    margin: 10px;
+}

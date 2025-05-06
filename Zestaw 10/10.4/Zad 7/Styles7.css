@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Consolas, sans-serif;
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+}
+
+.fillField{
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.53);
+}
+.dateInput, select, .submitButton{
+    height: 40px;
+    width: 30vh;
+    border-radius: 7px;
+
+}
+
+.dateInput, select{
+    border: 1px solid #e3e3e3;
+}
+
+.submitButton{
+    background-color: #4caf50;
+    border: 1px solid #439a47;
+    color: white;
+    font-size: 17px;
+}
+
+.submitButton:hover{
+    background-color: #3b873e;
+}
+
+#result{
+    padding: 20px;
+}

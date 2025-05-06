@@ -1,0 +1,97 @@
+body{
+    background-color: #2e4154;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container, form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 10px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+#newOpinion{
+    height: 150px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+#opinionsContainer{
+    background-color: #d5d9dd;
+    border-radius: 7px;
+}
+
+.optionDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 10px;
+    border-bottom: 1px dotted darkgray;
+    padding: 5px;
+}
+.opinionText{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+input{
+    border-radius: 7px;
+}
+
+input[type='submit']:hover{
+    filter: brightness(85%);
+}
+
+#addOpinion, #resetButton{
+    background-color: #3498db;
+    color: white;
+    border: 1px solid rgb(36, 156, 255);
+    font-size: 20px;
+    height: 40px;
+}
+
+#savedOpinionsFrom input:not(:last-child){
+    font-size: 15px;
+}
+
+.editButton{
+    background-color: #9f9f9f;
+    border: 1px solid #919191;
+}
+
+.deleteButton{
+    background-color: #f16363;
+    border: 1px solid #f15858;
+}
+
+.saveButton{
+    background-color: green;
+    border: 1px solid #026302;
+}
+
+.cancelButton{
+    background-color: #eaea59;
+}
+
+.opinionText{
+    resize: none;
+    height: 100px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}

@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Consolas, sans-serif;
+    font-size: 24px;
+    background-color: #f4f4f4;
+}
+h1, h2{
+    text-align: center;
+}
+#calendarGenerator{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+input{
+    min-height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+.classicSubmit{
+    background-color: #4bae4f;
+    color: white;
+    border: 1px solid #55c359;
+    font-size: 20px;
+    min-height: 40px;
+
+}
+
+.infoMessage{
+    color: royalblue;
+}
+
+#calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 550px;
+}
+
+.plate {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.plate.dayOfWeek {
+    background-color: #4caf50;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+a{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4bae4f;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+a:hover, input[type='submit']:hover{
+    filter: brightness(85%);
+    cursor: default;
+}
+
+.errorMessage{
+    color: #cc0137;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}

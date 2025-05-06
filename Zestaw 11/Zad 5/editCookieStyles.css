@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+}
+form{
+    justify-content: space-around;
+}
+
+input{
+    padding: 5px;
+}
+
+#firstForm{
+    flex: 2;
+}
+
+#firstForm input{
+    height: 40px;
+    margin: 10px;
+}
+#firstForm input:not(.classicSubmit){
+    border: 1px solid lightgray;
+}
+.classicSubmit{
+    width: 80%;
+    align-self: center;
+    letter-spacing: 2px;
+}
+
+#secondForm input{
+    height: 30px;
+    width: 70%;
+    align-self: center;
+    background-color: #e6605f;
+    color: white;
+    border: 1px solid #e8706f;
+    letter-spacing: 2px;
+}
